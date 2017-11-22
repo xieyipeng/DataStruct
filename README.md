@@ -43,3 +43,14 @@ typedef struct dlink_node{
   struct dlink_node *llink,*rlink;
  }dnode
  ```
+链式队列：
+```java
+typedef int datatype
+typedef struct dlink_node{
+  datatype info;
+  struct dlink_node *next;
+ }node
+typedef struct{
+  node *front,*rear;//定义队首队尾指针
+}
+```
