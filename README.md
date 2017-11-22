@@ -52,5 +52,5 @@ typedef struct dlink_node{
  }node
 typedef struct{
   node *front,*rear;//定义队首队尾指针
-}
+}queue
 ```
