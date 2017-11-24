@@ -96,3 +96,20 @@ treenode tree[MAXSIZE];
 int root;
 int length;
 ```
+* 树的孩子表示法：(链表方式)
+```java
+#define MAXSIZE 50
+typedef char datatype;
+typedef struct chnode {
+	int child;
+	struct chnode *next;
+}chnode,*chpoint;
+typedef struct {
+	datatype data;
+	chpoint firstchild;
+}node;
+typedef struct {
+	node treelist[MAXSIZE];
+	int length, root;
+}tree;
+```
