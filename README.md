@@ -1,9 +1,10 @@
 
 # DataStructure
-数据结构（c语言）
 
-# 线性表：顺序存储
-顺序表：
+## 数据结构（c语言）
+
+#### 线性表：顺序存储
+* 顺序表：
 ```java
 #define MAXSIZE 100
 typedef int datatype;
@@ -12,7 +13,7 @@ typedef struct{
   int size;
 }sequence_list;
 ```
-栈：
+* 栈：
 ```java
 #define MAXSIZE 100
 typedef struct{
@@ -20,7 +21,7 @@ typedef struct{
   int top;
 }sequence_stack
 ```
-队列：
+* 队列：
 ```java
 #define MAXSIZE 100
 typedef struct{
@@ -30,8 +31,8 @@ typedef struct{
 }sequence_queue
 ```
 
-# 线性表：链式存储
-单链表：
+#### 线性表：链式存储
+* 单链表：
 ```java
 typedef int datatype
 typedef struct link_node{
@@ -39,7 +40,7 @@ typedef struct link_node{
   struct link_node *next;
 }node
  ```
- 双链表：
+* 双链表：
  ```java
  typedef int datatype
 typedef struct dlink_node{
@@ -47,7 +48,7 @@ typedef struct dlink_node{
   struct dlink_node *llink,*rlink;
  }dnode
  ```
-链式队列：
+* 链式队列：
 ```java
 typedef int datatype
 typedef struct dlink_node{
@@ -58,8 +59,8 @@ typedef struct{
   node *front,*rear;//定义队首队尾指针
 }queue
 ```
-# Tree
-树的双亲表示法：
+#### 树 Tree
+* 树的双亲表示法：
 ```java
 #define MAXSIZE 100
 typedef char datatype;
@@ -72,4 +73,4 @@ typedef struct tree {
 	int length, root;//节点的个数及根节点的位置
 };
 ```
-树的孩子表示法：
+* 树的孩子表示法：
