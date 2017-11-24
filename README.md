@@ -113,3 +113,12 @@ typedef struct {
 	int length, root;
 }tree;
 ```
+* 树的孩子兄弟表示法：
+```java
+typedef char datatype;
+typedef struct node {
+	datatype data;
+	struct node *firstchild, *rightsibling;
+}node, *pnode;
+pnode root;
+```
