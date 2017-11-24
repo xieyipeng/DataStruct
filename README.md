@@ -73,4 +73,13 @@ typedef struct tree {
 	int length, root;//节点的个数及根节点的位置
 };
 ```
-* 树的孩子表示法：
+* 树的孩子表示法：(指针方式)
+```java
+#define m 3
+typedef char datatype;
+typedef struct node {
+	datatype data;
+	struct node *child[m];
+}node,*tree;
+tree root;
+```
