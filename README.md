@@ -83,3 +83,16 @@ typedef struct node {
 }node,*tree;
 tree root;
 ```
+* 树的孩子表示法：(数组方式)
+```java
+#define m 3
+#define MAXSIZE 20
+typedef char datatype;
+typedef struct node {
+	datatype data;
+	int child[m];
+}treenode;
+treenode tree[MAXSIZE];
+int root;
+int length;
+```
