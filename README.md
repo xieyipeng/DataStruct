@@ -1,8 +1,8 @@
-# DataStructure
+# **DataStructure**
 
 ## 数据结构（c语言）
 
-#### **线性表：顺序存储**
+### **线性表：顺序存储**
 * 顺序表：
 ```java
 #define MAXSIZE 100
@@ -30,7 +30,7 @@ typedef struct{
 }sequence_queue
 ```
 
-#### **线性表：链式存储**
+### **线性表：链式存储**
 * 单链表：
 ```java
 typedef int datatype
@@ -58,7 +58,7 @@ typedef struct{
   node *front,*rear;//定义队首队尾指针
 }queue
 ```
-#### **树 Tree**
+### **树 Tree**
 * 树的双亲表示法：
 ```java
 #define MAXSIZE 100
