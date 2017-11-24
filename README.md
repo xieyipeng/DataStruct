@@ -1,7 +1,9 @@
+
 # DataStructure
 数据结构（c语言）
 
-顺序表：顺序存储
+# 线性表：顺序存储
+顺序表：
 ```java
 #define MAXSIZE 100
 typedef int datatype;
@@ -27,6 +29,8 @@ typedef struct{
   int rear;
 }sequence_queue
 ```
+
+# 线性表：链式存储
 单链表：
 ```java
 typedef int datatype
