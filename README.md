@@ -54,3 +54,18 @@ typedef struct{
   node *front,*rear;//定义队首队尾指针
 }queue
 ```
+# Tree
+树的双亲表示法：
+```java
+#define MAXSIZE 100
+typedef char datatype;
+typedef struct node {
+	datatype data;
+	int parent;//结下双亲的下标
+}node;
+typedef struct tree {
+	node treeList[MAXSIZE];//存放节点的数组
+	int length, root;//节点的个数及根节点的位置
+};
+```
+树的孩子表示法：
