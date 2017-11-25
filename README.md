@@ -122,3 +122,17 @@ typedef struct node {
 }node, *pnode;
 pnode root;
 ```
+
+### **二叉树**
+* 顺序存储(不带双亲指示)：
+```java
+#define MAXSIZE 20
+typedef char datatype;
+typedef struct {
+	datatype data;
+	int lchild, rchild;//存放左右子女的下标
+}node;
+node tree[MAXSIZE];
+int n;//树中实际所含节点的个数
+int root;//存放根节点的下标
+```
