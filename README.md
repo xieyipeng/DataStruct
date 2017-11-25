@@ -151,3 +151,15 @@ node tree[MAXSIZE];
 int n;//树中实际所含节点的个数
 int root;//存放根节点的下标
 ```
+* 中序穿线二叉树：
+```java
+#include<stdio.h>
+#include<Windows.h>
+typedef char datatype;
+typedef struct node{
+	datatype data;
+	int ltag, rtag;//存放左右下标
+	struct node *lchild, *rchild;
+}binthrnode;
+typedef binthrnode *binthrnode;
+```
