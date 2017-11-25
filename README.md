@@ -163,3 +163,14 @@ typedef struct node{
 }binthrnode;
 typedef binthrnode *binthrnode;
 ```
+* 二叉排序树
+```java
+#include<stdio.h>
+#include<Windows.h>
+typedef int datatype;
+typedef struct node {
+	datatype key;
+	struct node *lchild, *rchild;
+}bsnode;
+typedef bsnode *bstree;
+```
