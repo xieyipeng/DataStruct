@@ -136,3 +136,18 @@ node tree[MAXSIZE];
 int n;//树中实际所含节点的个数
 int root;//存放根节点的下标
 ```
+* 顺序存储(带双亲指示)：
+```java
+#include<stdio.h>
+#include<Windows.h>
+#define MAXSIZE 20
+typedef char datatype;
+typedef struct {
+	datatype data;
+	int lchild, rchild;//存放左右子女的下标
+	int parent;
+}node;
+node tree[MAXSIZE];
+int n;//树中实际所含节点的个数
+int root;//存放根节点的下标
+```
