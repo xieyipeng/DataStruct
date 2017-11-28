@@ -189,3 +189,23 @@ typedef struct {
 	int n, e;
 }Mgraph;
 ```
+* 邻接表
+```java
+#include<stdio.h>
+#include<Windows.h>
+//邻接表
+#define M 20
+typedef char Datatype;
+typedef struct node {//边表节点
+	int adjvex;
+	struct node *next;
+}EdgeNode;
+typedef struct vnode {//头节点类型
+	Datatype vertex;
+	EdgeNode *FistEdge;//邻接链表头指针
+}VertexNode;
+typedef struct {//邻接表的类型
+	VertexNode adjlist[M];//存放头节点的顺序表
+	int n, e;
+};
+```
