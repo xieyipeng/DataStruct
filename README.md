@@ -174,3 +174,17 @@ typedef struct node {
 }bsnode;
 typedef bsnode *bstree;
 ```
+### **图**
+```java
+#include<stdio.h>
+#include<Windows.h>
+#define FINITY 5000
+#define M 20
+typedef char vertextype;
+typedef int edgetype;
+typedef struct {
+	vertextype vexs[M];
+	edgetype edges[M][M];
+	int n, e;
+}Mgraph;
+```
