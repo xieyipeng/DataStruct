@@ -175,6 +175,7 @@ typedef struct node {
 typedef bsnode *bstree;
 ```
 ### **图**
+* 数组表示(邻接矩阵)
 ```java
 #include<stdio.h>
 #include<Windows.h>
