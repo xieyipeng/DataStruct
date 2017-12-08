@@ -60,6 +60,7 @@ typedef struct{
 }queue
 ```
 ### **字符串**
+* 顺序存储
 ```java
 #include<stdio.h>
 #include<Windows.h>
@@ -70,6 +71,18 @@ typedef struct {
 	int length;
 }seqstring;
 ```
+* 链式存储
+```java
+#include<stdio.h>
+#include<Windows.h>
+typedef char datatype;
+typedef struct node{
+	char data;
+	struct node *next;
+}linknode;
+typedef linknode *linkstring;
+```
+
 ### **树 Tree**
 * 树的双亲表示法：
 ```java
