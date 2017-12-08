@@ -59,6 +59,17 @@ typedef struct{
   node *front,*rear;//定义队首队尾指针
 }queue
 ```
+### **字符串**
+```java
+#include<stdio.h>
+#include<Windows.h>
+#define maxsize 100
+typedef char datatype;
+typedef struct {
+	char str[maxsize];
+	int length;
+}seqstring;
+```
 ### **树 Tree**
 * 树的双亲表示法：
 ```java
