@@ -82,7 +82,18 @@ typedef struct node{
 }linknode;
 typedef linknode *linkstring;
 ```
-
+### **数组**
+```java
+#include<stdio.h>
+#include<Windows.h>
+#define maxsize 3
+typedef int datatype;
+typedef struct {
+	datatype *base;
+	int index[maxsize];
+	int c[maxsize];
+}array;
+```
 ### **树 Tree**
 * 树的双亲表示法：
 ```java
