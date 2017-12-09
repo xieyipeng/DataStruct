@@ -106,7 +106,42 @@ typedef struct {
 }matrix;
 typedef int spmatrix[100][3];//三元组
 ```
-
+* **链式存储**
+```java
+#include<stdio.h>
+#include<Windows.h>
+//稀疏矩阵
+typedef struct matrixnode{
+	int row, col;
+	struct matrixnode *right, *down;
+	union {
+		int val;
+		struct matrixnode *next;
+	}tag;
+}matrixnode;
+typedef matrixnode *spmatrix;
+typedef spmatrix headspmatrix[100];
+/*
+union 维护足够的空间来置放多个数据成员中
+的“一种”，而不是为每一个数据成员配置空
+间，在union 中所有的数据成员共用一个空间
+，同一时间只能储存其中一个数据成员，所有
+的数据成员具有相同的起始地址。例子如下：
+union StateMachine{
+	char character;
+	int number;
+	char *str;
+	double exp;
+};
+一个union 只配置一个足够大的空间以来容纳
+最大长度的数据成员，以上例而言，最大长度
+是double 型态，所以StateMachine 的空间大
+小就是double 数据类型的大小。
+在C++里，union 的成员默认属性页为public。
+union 主要用来压缩空间。如果一些数据不可
+能在同一时间同时被用到，则可以使用union。
+*/
+```
 
 ### **树 Tree**
 * 树的双亲表示法：
