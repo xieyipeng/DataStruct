@@ -94,6 +94,20 @@ typedef struct {
 	int c[maxsize];
 }array;
 ```
+### **矩阵**
+* 顺序存储
+```java
+#include<stdio.h>
+#include<Windows.h>
+//稀疏矩阵
+typedef struct {
+	int data[100][100];
+	int m, n;
+}matrix;
+typedef int spmatrix[100][3];//三元组
+```
+
+
 ### **树 Tree**
 * 树的双亲表示法：
 ```java
