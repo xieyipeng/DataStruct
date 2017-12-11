@@ -61,3 +61,35 @@ void binarysort(table *tab) {//  **二分法插入排序
 	}
 }
 ```
+* 表插入排序
+```java
+#include<stdio.h>
+#include<Windows.h>o
+#define maxsize 100
+typedef int keytype;
+typedef struct {
+	keytype key;
+	int link;
+	int other;
+}recordtype;
+typedef struct {
+	recordtype r[maxsize];
+	int length;
+}table;
+void tableinsertsort(table *tab) {
+	int i, p, q;
+	tab->r[0].link = 1;
+	tab->r[1].link = 0;
+	for (i = 2; i <= tab->length; i++) {
+		q = 0;
+		p = tab->r[1].link;
+		while (p != 0 && tab->r[i].key >= tab->r[p].key) {
+			q = p;
+			p = tab->r[p].link;
+		}
+		tab->r[i].link = p;
+		tab->r[q].link = i;
+	}
+}
+```
+你好
