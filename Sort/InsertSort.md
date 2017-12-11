@@ -27,6 +27,18 @@ void insertsort(table *tab) {//  **直接插入**
 ```
 * 二分法插入排序
 ```java
+#include<stdio.h>
+#include<Windows.h>
+#define maxsize 100
+typedef int keytype;
+typedef struct {
+	keytype key;
+	int other;
+}recordtype;
+typedef struct {
+	recordtype r[maxsize];
+	int length;
+}table;
 void binarysort(table *tab) {//  **二分法插入排序
 	int i, j, left, right, mid;
 	for (i = 2; i <= tab->length; i++) {
