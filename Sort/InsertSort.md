@@ -18,7 +18,7 @@ void insertsort(table *tab) {//  **直接插入**
 		j = j - 1;
 		tab->r[0] = tab->r[j];
 		while (tab->r[0].key < tab->r[j].key) {
-			tab->r[j + 1] = tab->r[j];
+			tab->r[j + 1] = tab->r[j];//记录后移
 			j--;
 		}
 		tab->r[j+1]= tab->r[0];
