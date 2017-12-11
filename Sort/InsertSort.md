@@ -25,3 +25,27 @@ void insertsort(table *tab) {//  **直接插入**
 	}
 }
 ```
+* 二分法插入排序
+```java
+void binarysort(table *tab) {//  **二分法插入排序
+	int i, j, left, right, mid;
+	for (i = 2; i <= tab->length; i++) {
+		tab->r[0] = tab->r[i];
+		left = 1;
+		right = i - 1;
+		while (left <= right) {
+			mid = (right + left) / 2;
+			if (tab->r[i].key < tab->r[mid].key) {
+				right = mid - 1;
+			}
+			else {
+				left = mid + 1;
+			}
+		}
+		for (j = i - 1; j >= left; j--) {
+			tab->r[j + 1] = tab->r[j];
+		}
+		tab->r[left] = tab->r[0];
+	}
+}
+```
