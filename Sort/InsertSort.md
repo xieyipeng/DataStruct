@@ -92,4 +92,3 @@ void tableinsertsort(table *tab) {
 	}
 }
 ```
-你好
