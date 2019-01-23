@@ -1,0 +1,7 @@
+xieyipeng@xieyipeng-virtual-machine:~/文档/DataStructure/二级$ sudo vim test.c
+[sudo] xieyipeng 的密码： 
+xieyipeng@xieyipeng-virtual-machine:~/文档/DataStructure/二级$ sudo gcc -Wall test.c -o test
+xieyipeng@xieyipeng-virtual-machine:~/文档/DataStructure/二级$ ./test 
+hello
+xieyipeng@xieyipeng-virtual-machine:~/文档/DataStructure/二级$ 
+
