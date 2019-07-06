@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/clion.dir/main.c.o"
+  "CMakeFiles/clion.dir/main.c.obj"
   "clion.pdb"
-  "clion"
+  "clion.exe"
+  "clion.exe.manifest"
+  "libclion.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,11 +1,11 @@
-/home/xieyipeng/application/CLion/CLion-2018.3.4/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/xieyipeng/application/CLion/CLion-2018.3.4/DataStructure/clion
--- The C compiler identification is GNU 7.3.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
+"D:\Clion\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\DataStructure\clion
+-- The C compiler identification is GNU 8.1.0
+-- Check for working C compiler: D:/Clion/minGW/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/Clion/minGW/mingw64/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/xieyipeng/application/CLion/CLion-2018.3.4/DataStructure/clion/cmake-build-debug
+-- Build files have been written to: E:/DataStructure/clion/cmake-build-debug
