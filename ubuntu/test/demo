@@ -1,0 +1,5 @@
+xieyipeng@xieyipeng-Lenovo-E5:~/文档/DataStructure/ubuntu/test$ gcc test.c -o test
+xieyipeng@xieyipeng-Lenovo-E5:~/文档/DataStructure/ubuntu/test$ ./test 
+hello!
+xieyipeng@xieyipeng-Lenovo-E5:~/文档/DataStructure/ubuntu/test$ 
+
