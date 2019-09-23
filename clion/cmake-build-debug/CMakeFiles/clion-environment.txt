@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@D:\Clion\minGW\mingw64
+ToolSet: w64 6.0 (local)@D:\win_build\mingw64
 Options: 
 
 Options:

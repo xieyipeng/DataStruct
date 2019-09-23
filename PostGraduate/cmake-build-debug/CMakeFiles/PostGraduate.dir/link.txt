@@ -1,0 +1,3 @@
+"D:\clion\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\PostGraduate.dir/objects.a
+D:\win_build\mingw64\bin\ar.exe cr CMakeFiles\PostGraduate.dir/objects.a @CMakeFiles\PostGraduate.dir\objects1.rsp
+D:\win_build\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\PostGraduate.dir/objects.a -Wl,--no-whole-archive  -o PostGraduate.exe -Wl,--out-implib,libPostGraduate.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PostGraduate.dir\linklibs.rsp

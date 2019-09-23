@@ -1,7 +1,7 @@
-"D:\Clion\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\DataStructure\clion
+"D:\clion\CLion 2019.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\DataStructure\clion
 -- The C compiler identification is GNU 8.1.0
--- Check for working C compiler: D:/Clion/minGW/mingw64/bin/gcc.exe
--- Check for working C compiler: D:/Clion/minGW/mingw64/bin/gcc.exe -- works
+-- Check for working C compiler: D:/win_build/mingw64/bin/gcc.exe
+-- Check for working C compiler: D:/win_build/mingw64/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features

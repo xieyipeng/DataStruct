@@ -11,10 +11,10 @@
 				<Option working_dir="E:/DataStructure/clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clion">
@@ -24,15 +24,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clion"/>
-					<CompileFile command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clion"/>
+					<CompileFile command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clion/fast">
@@ -42,35 +42,35 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Clion/minGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/win_build/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clion/fast"/>
-					<CompileFile command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clion/fast"/>
+					<CompileFile command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/DataStructure/clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/DataStructure/clion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/minGW/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/win_build/mingw64/bin/mingw32-make.exe -f &quot;E:/DataStructure/clion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
