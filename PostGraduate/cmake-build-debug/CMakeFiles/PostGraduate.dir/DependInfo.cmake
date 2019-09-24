@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "E:/DataStructure/PostGraduate/LinearList/SequenceList.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj"
   "E:/DataStructure/PostGraduate/main.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
