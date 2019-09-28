@@ -12,22 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a89e00-baae-4839-9497-8a6dbeaac066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../PostGraduate/LinearList/SequenceList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PostGraduate/LinearList/text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/LinearList/SequenceList.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/PostGraduate.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/PostGraduate.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PostGraduate/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostGraduate/LinearList/SequenceList.c" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/LinearList/SequenceList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/PostGraduate.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../PostGraduate/cmake-build-debug/PostGraduate.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/clion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/clion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +91,8 @@
       <workItem from="1569295787832" duration="10000" />
       <workItem from="1569295837262" duration="5000" />
       <workItem from="1569295866876" duration="659000" />
+      <workItem from="1569415099165" duration="614000" />
+      <workItem from="1569416426133" duration="29000" />
     </task>
     <servers />
   </component>

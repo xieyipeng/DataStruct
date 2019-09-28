@@ -122,6 +122,33 @@ PostGraduate/fast:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/build
 .PHONY : PostGraduate/fast
 
+LinearList/LinkList.obj: LinearList/LinkList.c.obj
+
+.PHONY : LinearList/LinkList.obj
+
+# target to build an object file
+LinearList/LinkList.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.obj
+.PHONY : LinearList/LinkList.c.obj
+
+LinearList/LinkList.i: LinearList/LinkList.c.i
+
+.PHONY : LinearList/LinkList.i
+
+# target to preprocess a source file
+LinearList/LinkList.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.i
+.PHONY : LinearList/LinkList.c.i
+
+LinearList/LinkList.s: LinearList/LinkList.c.s
+
+.PHONY : LinearList/LinkList.s
+
+# target to generate assembly for a file
+LinearList/LinkList.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.s
+.PHONY : LinearList/LinkList.c.s
+
 LinearList/SequenceList.obj: LinearList/SequenceList.c.obj
 
 .PHONY : LinearList/SequenceList.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... PostGraduate
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... LinearList/LinkList.obj
+	@echo ... LinearList/LinkList.i
+	@echo ... LinearList/LinkList.s
 	@echo ... LinearList/SequenceList.obj
 	@echo ... LinearList/SequenceList.i
 	@echo ... LinearList/SequenceList.s

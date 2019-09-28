@@ -3,4 +3,4 @@ project(PostGraduate C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(PostGraduate main.c LinearList/SequenceList.c)
+add_executable(PostGraduate main.c LinearList/SequenceList.c LinearList/SequenceList.h LinearList/LinkList.c LinearList/LinkList.h)

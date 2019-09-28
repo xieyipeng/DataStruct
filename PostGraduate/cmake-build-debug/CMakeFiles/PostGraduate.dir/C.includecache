@@ -7,6 +7,10 @@
 #IncludeRegexTransform: 
 
 E:/DataStructure/PostGraduate/LinearList/SequenceList.c
+SequenceList.h
+E:/DataStructure/PostGraduate/LinearList/SequenceList.h
+
+E:/DataStructure/PostGraduate/LinearList/SequenceList.h
 stdio.h
 -
 stdlib.h
