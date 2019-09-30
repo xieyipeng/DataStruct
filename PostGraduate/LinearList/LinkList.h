@@ -6,3 +6,19 @@
 #define POSTGRADUATE_LINKLIST_H
 
 #endif //POSTGRADUATE_LINKLIST_H
+
+#include "malloc.h"
+#include "stdio.h"
+#include "stdlib.h"
+
+
+typedef int ElemType;
+typedef struct LNode {
+    ElemType data;
+    struct LNode *next;
+} LNode, *LinkList;
+
+LinkList ListHeadInsert(LinkList linkList);
+
+LinkList ListTailInsert(LinkList linkList);
+
