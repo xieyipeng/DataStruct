@@ -22,3 +22,10 @@ LinkList ListHeadInsert(LinkList linkList);
 
 LinkList ListTailInsert(LinkList linkList);
 
+void PrintLinkList(LinkList linkList);
+
+LinkList GetElemFromI(LinkList linkList, int i);
+
+LinkList GetElemFromV(LinkList linkList, ElemType e);
+
+LinkList InsertI(LinkList linkList, int i);

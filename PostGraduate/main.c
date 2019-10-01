@@ -4,10 +4,9 @@
 int main() {
     LinkList linkList = NULL;
     linkList = ListTailInsert(linkList);
-    while (linkList->next != NULL) {
-        linkList=linkList->next;
-        printf("%d ", linkList->data);
-    }
+    PrintLinkList(linkList);
+
+
     return 0;
 }
 
