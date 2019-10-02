@@ -61,6 +61,10 @@ LinkList ListTailInsert(LinkList linkList) {
  * @param linkList
  */
 void PrintLinkList(LinkList linkList) {
+    if (linkList == NULL) {
+        printf("linklist is null!");
+        return;
+    }
     LinkList p = linkList;
     while (p->next != NULL) {
         p = p->next;
@@ -97,7 +101,7 @@ LinkList GetElemFromI(LinkList linkList, int i) {
 LinkList GetElemFromV(LinkList linkList, ElemType e) {
     LinkList p = linkList;
     while (p != NULL && p->data != e) {
-        p=p->next;
+        p = p->next;
     }
     LinkList res;
     res = (LinkList) malloc(sizeof(LinkList));
@@ -106,12 +110,79 @@ LinkList GetElemFromV(LinkList linkList, ElemType e) {
 }
 
 /**
- * 插入操作
+ * 插入操作（前插）
  * @param linkList
- * @param i 插入位置
+ * @param i 插入位置 - 从1开始
+ * @param e 插入元素
  * @return
  */
-LinkList InsertI(LinkList linkList, int i){
-
+LinkList InsertI(LinkList linkList, int i, ElemType e) {
+    if (i <= 0) return NULL;
+    LinkList p = linkList;
+    while (i > 1) {
+        p = p->next;
+        i--;
+    }
+    LinkList t;
+    t = (LinkList) malloc(sizeof(LinkList));
+    t->data = e;
+    t->next = p->next;
+    p->next = t;
+    return linkList;
 }
 
+/**
+ * 按位删除
+ * @param linkList
+ * @param i 删除第i个元素
+ * @return
+ */
+LinkList DeleteElemFromI(LinkList linkList, int i) {
+    if (i <= 0) return NULL;
+    LinkList p = linkList;
+    while (p && i > 1) {
+        p = p->next;
+        i--;
+    }
+    if (p) {
+        LinkList q = p->next;
+        p->next = q->next;
+        free(q);
+    }
+    return linkList;
+}
+
+/**
+ * 求表长
+ * @param linkList
+ * @return
+ */
+int LinkListLength(LinkList linkList) {
+    int i = 0;
+    LinkList p = linkList;
+    p = p->next;
+    while (p) {
+        p = p->next;
+        i++;
+    }
+    return i;
+}
+
+/**
+ * 链表逆置
+ * @param linkList
+ * @return
+ */
+LinkList LinkListReverse(LinkList linkList) {
+    LinkList p = linkList;
+    LinkList r, temp;
+    r = GetElemFromI(linkList, LinkListLength(linkList));
+    r = r->next;
+    while (p->next != r) {
+        temp = p->next;
+        p->next = temp->next;
+        temp->next = r->next;
+        r->next = temp;
+    }
+    return linkList;
+}

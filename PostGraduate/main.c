@@ -5,8 +5,9 @@ int main() {
     LinkList linkList = NULL;
     linkList = ListTailInsert(linkList);
     PrintLinkList(linkList);
-
-
+    printf("\n");
+    linkList=LinkListReverse(linkList);
+    PrintLinkList(linkList);
     return 0;
 }
 

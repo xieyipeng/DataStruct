@@ -28,4 +28,10 @@ LinkList GetElemFromI(LinkList linkList, int i);
 
 LinkList GetElemFromV(LinkList linkList, ElemType e);
 
-LinkList InsertI(LinkList linkList, int i);
+LinkList InsertI(LinkList linkList, int i, ElemType e);
+
+LinkList DeleteElemFromI(LinkList linkList, int i);
+
+int LinkListLength(LinkList linkList);
+
+LinkList LinkListReverse(LinkList linkList);
