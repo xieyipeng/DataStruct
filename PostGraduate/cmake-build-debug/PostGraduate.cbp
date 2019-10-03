@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/DLinkList.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/DLinkList.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/LinearList/LinkList.c">
 			<Option target="PostGraduate"/>
 		</Unit>
@@ -84,6 +90,12 @@
 			<Option target="PostGraduate"/>
 		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/LinearList/SequenceList.h">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/Stack.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/Stack.h">
 			<Option target="PostGraduate"/>
 		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/main.c">

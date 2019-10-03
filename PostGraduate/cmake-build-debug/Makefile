@@ -122,6 +122,33 @@ PostGraduate/fast:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/build
 .PHONY : PostGraduate/fast
 
+LinearList/DLinkList.obj: LinearList/DLinkList.c.obj
+
+.PHONY : LinearList/DLinkList.obj
+
+# target to build an object file
+LinearList/DLinkList.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.obj
+.PHONY : LinearList/DLinkList.c.obj
+
+LinearList/DLinkList.i: LinearList/DLinkList.c.i
+
+.PHONY : LinearList/DLinkList.i
+
+# target to preprocess a source file
+LinearList/DLinkList.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.i
+.PHONY : LinearList/DLinkList.c.i
+
+LinearList/DLinkList.s: LinearList/DLinkList.c.s
+
+.PHONY : LinearList/DLinkList.s
+
+# target to generate assembly for a file
+LinearList/DLinkList.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.s
+.PHONY : LinearList/DLinkList.c.s
+
 LinearList/LinkList.obj: LinearList/LinkList.c.obj
 
 .PHONY : LinearList/LinkList.obj
@@ -176,6 +203,33 @@ LinearList/SequenceList.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.s
 .PHONY : LinearList/SequenceList.c.s
 
+LinearList/Stack.obj: LinearList/Stack.c.obj
+
+.PHONY : LinearList/Stack.obj
+
+# target to build an object file
+LinearList/Stack.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj
+.PHONY : LinearList/Stack.c.obj
+
+LinearList/Stack.i: LinearList/Stack.c.i
+
+.PHONY : LinearList/Stack.i
+
+# target to preprocess a source file
+LinearList/Stack.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Stack.c.i
+.PHONY : LinearList/Stack.c.i
+
+LinearList/Stack.s: LinearList/Stack.c.s
+
+.PHONY : LinearList/Stack.s
+
+# target to generate assembly for a file
+LinearList/Stack.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Stack.c.s
+.PHONY : LinearList/Stack.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -212,12 +266,18 @@ help:
 	@echo ... PostGraduate
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... LinearList/DLinkList.obj
+	@echo ... LinearList/DLinkList.i
+	@echo ... LinearList/DLinkList.s
 	@echo ... LinearList/LinkList.obj
 	@echo ... LinearList/LinkList.i
 	@echo ... LinearList/LinkList.s
 	@echo ... LinearList/SequenceList.obj
 	@echo ... LinearList/SequenceList.i
 	@echo ... LinearList/SequenceList.s
+	@echo ... LinearList/Stack.obj
+	@echo ... LinearList/Stack.i
+	@echo ... LinearList/Stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

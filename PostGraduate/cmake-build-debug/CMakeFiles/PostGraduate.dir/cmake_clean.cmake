@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/PostGraduate.dir/main.c.obj"
   "CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj"
   "CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.obj"
+  "CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.obj"
+  "CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj"
   "PostGraduate.pdb"
   "PostGraduate.exe"
   "PostGraduate.exe.manifest"
