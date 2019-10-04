@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/DataStructure/PostGraduate/LinearList/LinkList.c
-LinkList.h
-E:/DataStructure/PostGraduate/LinearList/LinkList.h
-
-E:/DataStructure/PostGraduate/LinearList/LinkList.h
+E:/DataStructure/PostGraduate/LinearList/Stack.h
+stdbool.h
+E:/DataStructure/PostGraduate/LinearList/stdbool.h
 malloc.h
 E:/DataStructure/PostGraduate/LinearList/malloc.h
 stdio.h
 E:/DataStructure/PostGraduate/LinearList/stdio.h
 stdlib.h
 E:/DataStructure/PostGraduate/LinearList/stdlib.h
+
+E:/DataStructure/PostGraduate/main.c
+LinearList/Stack.h
+E:/DataStructure/PostGraduate/LinearList/Stack.h
 

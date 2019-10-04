@@ -7,6 +7,7 @@
 
 #endif //POSTGRADUATE_STACK_H
 
+#include "stdbool.h"
 #include "malloc.h"
 #include "stdio.h"
 #include "stdlib.h"
@@ -19,15 +20,15 @@ typedef struct {
     int top;
 } SqStack;
 
-void InitStack(SqStack sqStack);
+void InitStack(SqStack *sqStack);
 
-void StackEmpty(SqStack sqStack);
+bool StackEmpty(SqStack sqStack);
 
-void Push(SqStack sqStack, ElemType e);
+bool Push(SqStack *sqStack, ElemType e);
 
-void Pop(SqStack sqStack, ElemType e);
+bool Pop(SqStack *sqStack, ElemType *e);
 
-void GetTop(SqStack sqStack, ElemType *e);
+bool GetTop(SqStack sqStack, ElemType *e);
 
-void ClearStack(SqStack sqStack);
+void ClearStack(SqStack *sqStack);
 

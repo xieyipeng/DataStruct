@@ -176,6 +176,33 @@ LinearList/LinkList.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.s
 .PHONY : LinearList/LinkList.c.s
 
+LinearList/Queue.obj: LinearList/Queue.c.obj
+
+.PHONY : LinearList/Queue.obj
+
+# target to build an object file
+LinearList/Queue.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Queue.c.obj
+.PHONY : LinearList/Queue.c.obj
+
+LinearList/Queue.i: LinearList/Queue.c.i
+
+.PHONY : LinearList/Queue.i
+
+# target to preprocess a source file
+LinearList/Queue.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Queue.c.i
+.PHONY : LinearList/Queue.c.i
+
+LinearList/Queue.s: LinearList/Queue.c.s
+
+.PHONY : LinearList/Queue.s
+
+# target to generate assembly for a file
+LinearList/Queue.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Queue.c.s
+.PHONY : LinearList/Queue.c.s
+
 LinearList/SequenceList.obj: LinearList/SequenceList.c.obj
 
 .PHONY : LinearList/SequenceList.obj
@@ -272,6 +299,9 @@ help:
 	@echo ... LinearList/LinkList.obj
 	@echo ... LinearList/LinkList.i
 	@echo ... LinearList/LinkList.s
+	@echo ... LinearList/Queue.obj
+	@echo ... LinearList/Queue.i
+	@echo ... LinearList/Queue.s
 	@echo ... LinearList/SequenceList.obj
 	@echo ... LinearList/SequenceList.i
 	@echo ... LinearList/SequenceList.s

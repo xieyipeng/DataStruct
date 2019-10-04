@@ -86,6 +86,12 @@
 		<Unit filename="E:/DataStructure/PostGraduate/LinearList/LinkList.h">
 			<Option target="PostGraduate"/>
 		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/Queue.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/LinearList/Queue.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/LinearList/SequenceList.c">
 			<Option target="PostGraduate"/>
 		</Unit>

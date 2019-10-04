@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "E:/DataStructure/PostGraduate/LinearList/DLinkList.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.obj"
   "E:/DataStructure/PostGraduate/LinearList/LinkList.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.obj"
+  "E:/DataStructure/PostGraduate/LinearList/Queue.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/Queue.c.obj"
   "E:/DataStructure/PostGraduate/LinearList/SequenceList.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj"
   "E:/DataStructure/PostGraduate/LinearList/Stack.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj"
   "E:/DataStructure/PostGraduate/main.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/main.c.obj"
