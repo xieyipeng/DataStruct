@@ -9,12 +9,13 @@
 
 #include "stdbool.h"
 #include "malloc.h"
+#include "string.h"
 #include "stdio.h"
 #include "stdlib.h"
 
 #define MAXSIZE 100
 
-typedef int ElemType;
+typedef char ElemType;
 typedef struct {
     ElemType data[MAXSIZE];
     int top;
@@ -30,5 +31,4 @@ bool Pop(SqStack *sqStack, ElemType *e);
 
 bool GetTop(SqStack sqStack, ElemType *e);
 
-void ClearStack(SqStack *sqStack);
 

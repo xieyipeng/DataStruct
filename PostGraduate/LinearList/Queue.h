@@ -30,4 +30,6 @@ bool DeQueue(Queue *queue, ElemType *e);
 
 void GetHead(Queue queue, ElemType *e);
 
+int GetSize(Queue queue);
+
 void ClearQueue(Queue *queue);

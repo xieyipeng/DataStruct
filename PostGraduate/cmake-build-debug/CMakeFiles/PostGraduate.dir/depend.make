@@ -7,6 +7,9 @@ CMakeFiles/PostGraduate.dir/LinearList/DLinkList.c.obj: ../LinearList/DLinkList.
 CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.obj: ../LinearList/LinkList.c
 CMakeFiles/PostGraduate.dir/LinearList/LinkList.c.obj: ../LinearList/LinkList.h
 
+CMakeFiles/PostGraduate.dir/LinearList/Queue.c.obj: ../LinearList/Queue.c
+CMakeFiles/PostGraduate.dir/LinearList/Queue.c.obj: ../LinearList/Queue.h
+
 CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj: ../LinearList/SequenceList.c
 CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj: ../LinearList/SequenceList.h
 
