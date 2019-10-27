@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/DataStructure/PostGraduate/LinearList/SequenceList.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj"
   "E:/DataStructure/PostGraduate/LinearList/Stack.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj"
   "E:/DataStructure/PostGraduate/main.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/main.c.obj"
+  "E:/DataStructure/PostGraduate/tree/bint_node.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

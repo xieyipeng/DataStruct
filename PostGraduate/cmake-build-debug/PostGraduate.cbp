@@ -107,6 +107,21 @@
 		<Unit filename="E:/DataStructure/PostGraduate/main.c">
 			<Option target="PostGraduate"/>
 		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/tree/bint_node.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/tree/bint_node.h">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/tree/child_tree_array.h">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/tree/child_tree_list.h">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/tree/parent_tree.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -284,6 +284,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/main.c.s
 .PHONY : main.c.s
 
+tree/bint_node.obj: tree/bint_node.c.obj
+
+.PHONY : tree/bint_node.obj
+
+# target to build an object file
+tree/bint_node.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj
+.PHONY : tree/bint_node.c.obj
+
+tree/bint_node.i: tree/bint_node.c.i
+
+.PHONY : tree/bint_node.i
+
+# target to preprocess a source file
+tree/bint_node.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/tree/bint_node.c.i
+.PHONY : tree/bint_node.c.i
+
+tree/bint_node.s: tree/bint_node.c.s
+
+.PHONY : tree/bint_node.s
+
+# target to generate assembly for a file
+tree/bint_node.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/tree/bint_node.c.s
+.PHONY : tree/bint_node.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -311,6 +338,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tree/bint_node.obj
+	@echo ... tree/bint_node.i
+	@echo ... tree/bint_node.s
 .PHONY : help
 
 
