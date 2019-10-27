@@ -104,6 +104,12 @@
 		<Unit filename="E:/DataStructure/PostGraduate/LinearList/Stack.h">
 			<Option target="PostGraduate"/>
 		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/graph/matrix.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/graph/matrix.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/main.c">
 			<Option target="PostGraduate"/>
 		</Unit>

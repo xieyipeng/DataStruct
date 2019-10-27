@@ -16,8 +16,11 @@ CMakeFiles/PostGraduate.dir/LinearList/SequenceList.c.obj: ../LinearList/Sequenc
 CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj: ../LinearList/Stack.c
 CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj: ../LinearList/Stack.h
 
+CMakeFiles/PostGraduate.dir/graph/matrix.c.obj: ../graph/matrix.c
+CMakeFiles/PostGraduate.dir/graph/matrix.c.obj: ../graph/matrix.h
+
+CMakeFiles/PostGraduate.dir/main.c.obj: ../graph/matrix.h
 CMakeFiles/PostGraduate.dir/main.c.obj: ../main.c
-CMakeFiles/PostGraduate.dir/main.c.obj: ../tree/bint_node.h
 
 CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj: ../tree/bint_node.c
 CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj: ../tree/bint_node.h

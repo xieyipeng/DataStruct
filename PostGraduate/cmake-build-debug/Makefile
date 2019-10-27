@@ -257,6 +257,33 @@ LinearList/Stack.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/LinearList/Stack.c.s
 .PHONY : LinearList/Stack.c.s
 
+graph/matrix.obj: graph/matrix.c.obj
+
+.PHONY : graph/matrix.obj
+
+# target to build an object file
+graph/matrix.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/graph/matrix.c.obj
+.PHONY : graph/matrix.c.obj
+
+graph/matrix.i: graph/matrix.c.i
+
+.PHONY : graph/matrix.i
+
+# target to preprocess a source file
+graph/matrix.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/graph/matrix.c.i
+.PHONY : graph/matrix.c.i
+
+graph/matrix.s: graph/matrix.c.s
+
+.PHONY : graph/matrix.s
+
+# target to generate assembly for a file
+graph/matrix.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/graph/matrix.c.s
+.PHONY : graph/matrix.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -335,6 +362,9 @@ help:
 	@echo ... LinearList/Stack.obj
 	@echo ... LinearList/Stack.i
 	@echo ... LinearList/Stack.s
+	@echo ... graph/matrix.obj
+	@echo ... graph/matrix.i
+	@echo ... graph/matrix.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

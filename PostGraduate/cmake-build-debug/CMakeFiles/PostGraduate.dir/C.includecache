@@ -6,23 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/DataStructure/PostGraduate/main.c
-tree/bint_node.h
-E:/DataStructure/PostGraduate/tree/bint_node.h
-
-E:/DataStructure/PostGraduate/tree/bint_node.c
-bint_node.h
-E:/DataStructure/PostGraduate/tree/bint_node.h
-
-E:/DataStructure/PostGraduate/tree/bint_node.h
-stdio.h
-E:/DataStructure/PostGraduate/tree/stdio.h
-stdlib.h
-E:/DataStructure/PostGraduate/tree/stdlib.h
-string.h
-E:/DataStructure/PostGraduate/tree/string.h
+E:/DataStructure/PostGraduate/graph/matrix.c
+mbstring.h
+-
 stdbool.h
-E:/DataStructure/PostGraduate/tree/stdbool.h
-malloc.h
-E:/DataStructure/PostGraduate/tree/malloc.h
+-
+matrix.h
+E:/DataStructure/PostGraduate/graph/matrix.h
+
+E:/DataStructure/PostGraduate/graph/matrix.h
+stdlib.h
+E:/DataStructure/PostGraduate/graph/stdlib.h
+stdio.h
+E:/DataStructure/PostGraduate/graph/stdio.h
 
