@@ -20,8 +20,11 @@ CMakeFiles/PostGraduate.dir/graph/matrix.c.obj
  E:/DataStructure/PostGraduate/graph/matrix.c
  E:/DataStructure/PostGraduate/graph/matrix.h
 CMakeFiles/PostGraduate.dir/main.c.obj
- E:/DataStructure/PostGraduate/graph/matrix.h
  E:/DataStructure/PostGraduate/main.c
+ E:/DataStructure/PostGraduate/str/kmp.h
+CMakeFiles/PostGraduate.dir/str/kmp.c.obj
+ E:/DataStructure/PostGraduate/str/kmp.c
+ E:/DataStructure/PostGraduate/str/kmp.h
 CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj
  E:/DataStructure/PostGraduate/tree/bint_node.c
  E:/DataStructure/PostGraduate/tree/bint_node.h

@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/DataStructure/PostGraduate/graph/matrix.c
-mbstring.h
--
-stdbool.h
--
-matrix.h
-E:/DataStructure/PostGraduate/graph/matrix.h
+E:/DataStructure/PostGraduate/main.c
+str/kmp.h
+E:/DataStructure/PostGraduate/str/kmp.h
 
-E:/DataStructure/PostGraduate/graph/matrix.h
-stdlib.h
-E:/DataStructure/PostGraduate/graph/stdlib.h
+E:/DataStructure/PostGraduate/str/kmp.c
+kmp.h
+E:/DataStructure/PostGraduate/str/kmp.h
+
+E:/DataStructure/PostGraduate/str/kmp.h
 stdio.h
-E:/DataStructure/PostGraduate/graph/stdio.h
+E:/DataStructure/PostGraduate/str/stdio.h
+string.h
+E:/DataStructure/PostGraduate/str/string.h
 

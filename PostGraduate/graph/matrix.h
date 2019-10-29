@@ -21,9 +21,25 @@ typedef struct {
     int n, e;
 } MGraph;
 
+typedef struct edgeData {
+    int begin, end;
+    EdgeType length;
+} edge;
+
 void create(MGraph *graph, int c);
 
 void dfs(MGraph graph, int i);
 
 void dfsTraverse(MGraph graph);
 
+void bfs(MGraph graph, int i);
+
+int bfsTraverse(MGraph graph);
+
+void prim(MGraph graph);
+
+void kruskal(MGraph graph);
+
+void dijkstra(MGraph graph, int v0);
+
+void floyd(MGraph graph);

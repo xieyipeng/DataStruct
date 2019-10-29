@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/PostGraduate.dir/LinearList/Queue.c.obj"
   "CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj"
   "CMakeFiles/PostGraduate.dir/graph/matrix.c.obj"
+  "CMakeFiles/PostGraduate.dir/str/kmp.c.obj"
   "PostGraduate.pdb"
   "PostGraduate.exe"
   "PostGraduate.exe.manifest"

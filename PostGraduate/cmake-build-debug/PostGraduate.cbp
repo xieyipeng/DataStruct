@@ -113,6 +113,12 @@
 		<Unit filename="E:/DataStructure/PostGraduate/main.c">
 			<Option target="PostGraduate"/>
 		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/str/kmp.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/str/kmp.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/tree/bint_node.c">
 			<Option target="PostGraduate"/>
 		</Unit>

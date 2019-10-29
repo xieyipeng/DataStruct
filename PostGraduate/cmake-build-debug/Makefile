@@ -311,6 +311,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/main.c.s
 .PHONY : main.c.s
 
+str/kmp.obj: str/kmp.c.obj
+
+.PHONY : str/kmp.obj
+
+# target to build an object file
+str/kmp.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/str/kmp.c.obj
+.PHONY : str/kmp.c.obj
+
+str/kmp.i: str/kmp.c.i
+
+.PHONY : str/kmp.i
+
+# target to preprocess a source file
+str/kmp.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/str/kmp.c.i
+.PHONY : str/kmp.c.i
+
+str/kmp.s: str/kmp.c.s
+
+.PHONY : str/kmp.s
+
+# target to generate assembly for a file
+str/kmp.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/str/kmp.c.s
+.PHONY : str/kmp.c.s
+
 tree/bint_node.obj: tree/bint_node.c.obj
 
 .PHONY : tree/bint_node.obj
@@ -368,6 +395,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... str/kmp.obj
+	@echo ... str/kmp.i
+	@echo ... str/kmp.s
 	@echo ... tree/bint_node.obj
 	@echo ... tree/bint_node.i
 	@echo ... tree/bint_node.s

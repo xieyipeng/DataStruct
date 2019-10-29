@@ -1,4 +1,7 @@
 欢迎查询[markdown语法](http://blog.csdn.net/witnessai1/article/details/52551362)
+
+考研数据结构博客地址https://blog.csdn.net/xieyipeng1998/article/details/101317748
+
 # **DataStructure**
 
 ## 数据结构（c语言）
@@ -39,7 +42,7 @@ typedef struct link_node{
   datatype info;
   struct link_node *next;
 }node
- ```
+```
 * 双链表：
  ```java
  typedef int datatype
