@@ -21,7 +21,13 @@ CMakeFiles/PostGraduate.dir/graph/matrix.c.obj
  E:/DataStructure/PostGraduate/graph/matrix.h
 CMakeFiles/PostGraduate.dir/main.c.obj
  E:/DataStructure/PostGraduate/main.c
- E:/DataStructure/PostGraduate/str/kmp.h
+ E:/DataStructure/PostGraduate/sort/changeSort.h
+CMakeFiles/PostGraduate.dir/sort/changeSort.c.obj
+ E:/DataStructure/PostGraduate/sort/changeSort.c
+ E:/DataStructure/PostGraduate/sort/changeSort.h
+CMakeFiles/PostGraduate.dir/sort/insertSort.c.obj
+ E:/DataStructure/PostGraduate/sort/insertSort.c
+ E:/DataStructure/PostGraduate/sort/insertSort.h
 CMakeFiles/PostGraduate.dir/str/kmp.c.obj
  E:/DataStructure/PostGraduate/str/kmp.c
  E:/DataStructure/PostGraduate/str/kmp.h

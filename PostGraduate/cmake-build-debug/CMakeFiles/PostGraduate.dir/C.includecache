@@ -7,16 +7,14 @@
 #IncludeRegexTransform: 
 
 E:/DataStructure/PostGraduate/main.c
-str/kmp.h
-E:/DataStructure/PostGraduate/str/kmp.h
+sort/changeSort.h
+E:/DataStructure/PostGraduate/sort/changeSort.h
 
-E:/DataStructure/PostGraduate/str/kmp.c
-kmp.h
-E:/DataStructure/PostGraduate/str/kmp.h
+E:/DataStructure/PostGraduate/sort/changeSort.c
+changeSort.h
+E:/DataStructure/PostGraduate/sort/changeSort.h
 
-E:/DataStructure/PostGraduate/str/kmp.h
+E:/DataStructure/PostGraduate/sort/changeSort.h
 stdio.h
-E:/DataStructure/PostGraduate/str/stdio.h
-string.h
-E:/DataStructure/PostGraduate/str/string.h
+E:/DataStructure/PostGraduate/sort/stdio.h
 

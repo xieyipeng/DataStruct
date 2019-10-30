@@ -113,6 +113,18 @@
 		<Unit filename="E:/DataStructure/PostGraduate/main.c">
 			<Option target="PostGraduate"/>
 		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/sort/changeSort.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/sort/changeSort.h">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/sort/insertSort.c">
+			<Option target="PostGraduate"/>
+		</Unit>
+		<Unit filename="E:/DataStructure/PostGraduate/sort/insertSort.h">
+			<Option target="PostGraduate"/>
+		</Unit>
 		<Unit filename="E:/DataStructure/PostGraduate/str/kmp.c">
 			<Option target="PostGraduate"/>
 		</Unit>

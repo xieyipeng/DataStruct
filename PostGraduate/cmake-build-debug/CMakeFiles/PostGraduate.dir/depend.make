@@ -20,7 +20,13 @@ CMakeFiles/PostGraduate.dir/graph/matrix.c.obj: ../graph/matrix.c
 CMakeFiles/PostGraduate.dir/graph/matrix.c.obj: ../graph/matrix.h
 
 CMakeFiles/PostGraduate.dir/main.c.obj: ../main.c
-CMakeFiles/PostGraduate.dir/main.c.obj: ../str/kmp.h
+CMakeFiles/PostGraduate.dir/main.c.obj: ../sort/changeSort.h
+
+CMakeFiles/PostGraduate.dir/sort/changeSort.c.obj: ../sort/changeSort.c
+CMakeFiles/PostGraduate.dir/sort/changeSort.c.obj: ../sort/changeSort.h
+
+CMakeFiles/PostGraduate.dir/sort/insertSort.c.obj: ../sort/insertSort.c
+CMakeFiles/PostGraduate.dir/sort/insertSort.c.obj: ../sort/insertSort.h
 
 CMakeFiles/PostGraduate.dir/str/kmp.c.obj: ../str/kmp.c
 CMakeFiles/PostGraduate.dir/str/kmp.c.obj: ../str/kmp.h

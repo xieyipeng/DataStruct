@@ -311,6 +311,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/main.c.s
 .PHONY : main.c.s
 
+sort/changeSort.obj: sort/changeSort.c.obj
+
+.PHONY : sort/changeSort.obj
+
+# target to build an object file
+sort/changeSort.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/changeSort.c.obj
+.PHONY : sort/changeSort.c.obj
+
+sort/changeSort.i: sort/changeSort.c.i
+
+.PHONY : sort/changeSort.i
+
+# target to preprocess a source file
+sort/changeSort.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/changeSort.c.i
+.PHONY : sort/changeSort.c.i
+
+sort/changeSort.s: sort/changeSort.c.s
+
+.PHONY : sort/changeSort.s
+
+# target to generate assembly for a file
+sort/changeSort.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/changeSort.c.s
+.PHONY : sort/changeSort.c.s
+
+sort/insertSort.obj: sort/insertSort.c.obj
+
+.PHONY : sort/insertSort.obj
+
+# target to build an object file
+sort/insertSort.c.obj:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/insertSort.c.obj
+.PHONY : sort/insertSort.c.obj
+
+sort/insertSort.i: sort/insertSort.c.i
+
+.PHONY : sort/insertSort.i
+
+# target to preprocess a source file
+sort/insertSort.c.i:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/insertSort.c.i
+.PHONY : sort/insertSort.c.i
+
+sort/insertSort.s: sort/insertSort.c.s
+
+.PHONY : sort/insertSort.s
+
+# target to generate assembly for a file
+sort/insertSort.c.s:
+	$(MAKE) -f CMakeFiles\PostGraduate.dir\build.make CMakeFiles/PostGraduate.dir/sort/insertSort.c.s
+.PHONY : sort/insertSort.c.s
+
 str/kmp.obj: str/kmp.c.obj
 
 .PHONY : str/kmp.obj
@@ -395,6 +449,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sort/changeSort.obj
+	@echo ... sort/changeSort.i
+	@echo ... sort/changeSort.s
+	@echo ... sort/insertSort.obj
+	@echo ... sort/insertSort.i
+	@echo ... sort/insertSort.s
 	@echo ... str/kmp.obj
 	@echo ... str/kmp.i
 	@echo ... str/kmp.s

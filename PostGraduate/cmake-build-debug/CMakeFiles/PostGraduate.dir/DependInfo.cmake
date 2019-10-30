@@ -11,6 +11,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "E:/DataStructure/PostGraduate/LinearList/Stack.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/LinearList/Stack.c.obj"
   "E:/DataStructure/PostGraduate/graph/matrix.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/graph/matrix.c.obj"
   "E:/DataStructure/PostGraduate/main.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/main.c.obj"
+  "E:/DataStructure/PostGraduate/sort/changeSort.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/sort/changeSort.c.obj"
+  "E:/DataStructure/PostGraduate/sort/insertSort.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/sort/insertSort.c.obj"
   "E:/DataStructure/PostGraduate/str/kmp.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/str/kmp.c.obj"
   "E:/DataStructure/PostGraduate/tree/bint_node.c" "E:/DataStructure/PostGraduate/cmake-build-debug/CMakeFiles/PostGraduate.dir/tree/bint_node.c.obj"
   )
